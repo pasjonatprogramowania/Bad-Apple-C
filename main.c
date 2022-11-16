@@ -2,7 +2,7 @@
 
 int main()
 {
-    FILE* file = fopen("plik.txt","r");
+    FILE* file = fopen("bialy.bmp","rb");
     if (file == NULL)
         return NULL;
     printf("e");
